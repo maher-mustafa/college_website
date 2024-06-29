@@ -1,0 +1,207 @@
+.add-course{
+    /* width: 360px !important; */
+    margin: auto;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 15px 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+            "Encode Arname Arname Arname"
+            "dep Enname Enname Enname"
+            "level min max houres"
+            ". add add .";
+}
+.level{
+    grid-area: level;
+}
+.dep{
+    grid-area: dep;
+}
+.add{
+    grid-area: add;
+}
+.courseInstructor{
+    grid-area: courseInstructor;
+}
+.arname{
+    grid-area: Arname;
+}
+.enname{
+    grid-area: Enname;
+}
+.label_degree{
+grid-area: labDeg;
+}
+.Encode{
+    grid-area: Encode;
+}
+.Arcode{
+    grid-area: Arcode;
+}
+.houers{
+    grid-area: houres;
+}
+.oral-deg{
+    grid-area: oralDeg;
+}
+.min{
+    grid-area: min;
+}
+.max{
+    grid-area: max;
+}
+.type{
+    grid-area: type;
+}
+@media screen and (max-width:999px){
+    .add-course{
+        /* max-width: 58%; */
+        display: block;
+    }
+}
+.add-course label{
+    margin: 15px;
+    text-align: right !important;
+}
+
+
+
+
+
+
+
+.sit-form{
+    width: 60%;
+    /* height: auto; */
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 15px 10px;
+    margin: auto;
+}
+.sit-form label{
+    margin: 15px;
+}
+
+
+.examTable-form{
+    /* width: 30%; */
+        /* height: auto; */
+        border: 1px solid;
+        border-radius: 15px;
+        padding: 15px 10px;
+        /* margin: auto; */
+}
+
+.addUser-form{
+    width: 60%;
+        /* height: auto; */
+        border: 1px solid;
+        border-radius: 15px;
+        padding: 15px 10px;
+        margin: auto;
+}
+form label {
+    margin: 15px;
+}
+
+.department-form {
+    width: 60%;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 15px 10px;
+    margin: auto;
+}
+.edit-delet-icon:hover{
+cursor: pointer;
+}
+@media screen and (max-width:769px) {
+    .sit-form {
+        width: 80%;
+    }
+        .department-form{
+            width: 80%;
+        }
+    .addUser-form{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:469px) {
+    .sit-form {
+        width: 98%;
+    }
+        .addUser-form {
+            width: 98%;
+        }
+
+        .department-form{
+            width: 98%;
+        }
+}
+
+
+
+
+
+.radio-button-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+}
+
+.radio-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.radio-button__input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.radio-button__label {
+    display: inline-block;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 15px;
+    color: #202020;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.radio-button__custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #555;
+    transition: all 0.3s ease;
+}
+
+.radio-button__input:checked+.radio-button__label .radio-button__custom {
+    background-color: #4c8bf5;
+    border-color: transparent;
+    transform: scale(0.8);
+    box-shadow: 0 0 20px #4c8bf580;
+}
+
+.radio-button__input:checked+.radio-button__label {
+    color: #4c8bf5;
+}
+
+.radio-button__label:hover .radio-button__custom {
+    transform: scale(1.2);
+    border-color: #4c8bf5;
+    box-shadow: 0 0 20px #4c8bf580;
+}

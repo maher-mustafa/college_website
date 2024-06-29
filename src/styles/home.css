@@ -1,0 +1,109 @@
+.home{
+    /* background-color: #09285E; */
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0.9)), url("../images/3.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    padding: 25px 0;
+    height: 82vh;
+}
+.home-images{
+position: relative;
+height: 60%;
+}
+.home-images div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+}
+.home-images div span{
+    color: rgb(236, 221, 9);
+}
+.home-title h1{
+color: rgb(236, 221, 9);
+}
+.h-line{
+color: rgb(236, 221, 9);
+height: 2px;
+}
+.main-header{
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0 0 40px 0;
+    color: rgb(235, 245, 225);
+}
+.conditions{
+    padding: 50px 0;
+    background-color: #09285E;
+}
+.conditions ul li{
+    margin: 15px 0;
+    list-style-type: decimal;
+    text-align: right;
+    color: white;
+}
+.contact-us{
+    padding: 50px 0;
+        background-color: #09285E;
+}
+
+.contact-us .contact-form{
+    border: 1px solid #181616;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    /* background-color: rgb(218, 15, 15); */
+}
+
+.application-form{
+    padding: 50px 0;
+     background-color: #09285E;
+    /* text-align: right !important; */
+}
+.application-form form{
+    text-align: right !important;
+    border: 1px solid  black;
+    border-radius: 15px;
+    padding: 20px;
+}
+.application-form label{
+    margin: 10px 0;
+}
+
+.PersonalImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: rgb(218, 15, 15); 
+    border: 1px solid rgb(218, 15, 15);
+     box-shadow: 0 0 5px 0;
+    transition: all .5s;
+
+}
+
+.PersonalImage:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 0;
+    transition: all .5s;
+}
+
+.edit-image{
+    display: block;
+    border: 1px solid;
+    padding: 5px 10px;
+}
+#new-img{
+    display: none;
+   
+
+}

@@ -1,0 +1,17 @@
+.banner{
+    /* background-color:#D2AA6C; */
+    background-color:#f6f6f6;
+    /* background-color:#09285E; */
+    padding: 10px 20px;
+}
+.banner h3 {
+    color: #000;
+    /* font-size: 40px; */
+    
+}
+.nav-parent{
+    background-color:#09285E;
+}
+.navbar-toggler-icon{
+    background-color:white;
+}

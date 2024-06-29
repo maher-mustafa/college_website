@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/college_website/static/css/main.0d323697.css",
+    "main.js": "/college_website/static/js/main.b9d2e5c4.js",
+    "static/js/453.8ab44547.chunk.js": "/college_website/static/js/453.8ab44547.chunk.js",
+    "static/media/time-table.png": "/college_website/static/media/time-table.72548e07431993094ff4.png",
+    "static/media/teamwork.png": "/college_website/static/media/teamwork.b1cbd71805e81017f3a1.png",
+    "static/media/meeting.png": "/college_website/static/media/meeting.a16c5a7e8132ded7c63b.png",
+    "static/media/add-user.png": "/college_website/static/media/add-user.082d0df434ce6237cf14.png",
+    "static/media/profile.png": "/college_website/static/media/profile.5faf09a7795d28bf5a2b.png",
+    "static/media/document.png": "/college_website/static/media/document.13210b1082c015d83d6f.png",
+    "static/media/personal-information.png": "/college_website/static/media/personal-information.e1edf9d47068059ce91f.png",
+    "static/media/network.png": "/college_website/static/media/network.10977b26e10ffbc52c11.png",
+    "static/media/online-registration.png": "/college_website/static/media/online-registration.d073d06c634998f14f96.png",
+    "static/media/3.jpg": "/college_website/static/media/3.fcf1559ac08637bdd24c.jpg",
+    "static/media/checklist.png": "/college_website/static/media/checklist.939865d5c8ee273ec0d7.png",
+    "static/media/exam.png": "/college_website/static/media/exam.5de130219f0d3eacf781.png",
+    "static/media/course.png": "/college_website/static/media/course.ad2c8e4ea0628b43e964.png",
+    "static/media/homework.png": "/college_website/static/media/homework.d47c9a6cc837fba40859.png",
+    "static/media/upload.png": "/college_website/static/media/upload.19514eb0fe7c19245c67.png",
+    "index.html": "/college_website/index.html",
+    "main.0d323697.css.map": "/college_website/static/css/main.0d323697.css.map",
+    "main.b9d2e5c4.js.map": "/college_website/static/js/main.b9d2e5c4.js.map",
+    "453.8ab44547.chunk.js.map": "/college_website/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d323697.css",
+    "static/js/main.b9d2e5c4.js"
+  ]
+}
